@@ -1,6 +1,6 @@
 {
   "name": "Bulk Image Batcher & A4 Page Optimizer",
-  "description": "Bulk upload images, optimize for web performance, generate or edit images with Gemini 3.1 Flash Image Preview, organize into sets of 2 or 3 images per A4 sheet, and export as JPG or PDF.",
+  "description": "Gulf Way Group bulk image batch processor, web optimization engine, and ISO A4 sheet layout exporter with Gemini AI image generation.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

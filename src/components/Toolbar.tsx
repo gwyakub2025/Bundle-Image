@@ -58,7 +58,10 @@ export const Toolbar: React.FC<ToolbarProps> = ({
         )}
         <div className="flex flex-col">
           <div className="flex items-center gap-2">
-            <h1 className="text-sm font-bold text-slate-800 tracking-tight">
+            <span className="text-[10px] font-extrabold uppercase tracking-widest text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded border border-indigo-200 shadow-2xs">
+              Gulf Way Group
+            </span>
+            <h1 className="text-sm font-bold text-slate-800 tracking-tight hidden xs:inline">
               Active Batch Processor
             </h1>
             <span className="hidden sm:inline-block px-1.5 py-0.2 text-[9px] font-mono font-bold uppercase tracking-wider bg-slate-100 text-slate-600 rounded">

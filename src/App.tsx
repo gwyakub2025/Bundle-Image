@@ -36,7 +36,7 @@ const DEFAULT_CONFIG: BatchConfig = {
   maxDimension: 1920,
   showCaptions: true,
   showPageNumbers: true,
-  pageHeaderTitle: 'Batch Photo Sheet',
+  pageHeaderTitle: 'Gulf Way Group',
   outputFormat: 'pdf',
   backgroundColor: '#FFFFFF',
   marginMm: 12,

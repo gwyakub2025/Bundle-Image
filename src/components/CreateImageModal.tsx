@@ -127,6 +127,9 @@ export const CreateImageModal: React.FC<CreateImageModalProps> = ({
             </div>
             <div>
               <div className="flex items-center gap-2">
+                <span className="text-[10px] font-extrabold uppercase tracking-wider text-indigo-700 bg-indigo-50 px-1.5 py-0.2 rounded border border-indigo-200">
+                  Gulf Way Group
+                </span>
                 <h3 className="text-sm font-bold text-slate-900 tracking-tight">
                   Create Image with Text Prompt
                 </h3>

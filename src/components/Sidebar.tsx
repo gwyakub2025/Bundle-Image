@@ -36,12 +36,17 @@ export const Sidebar: React.FC<SidebarProps> = ({
     >
       {/* Brand & Title Header */}
       <div className="p-5 border-b border-slate-100">
-        <div className="flex items-center gap-2.5 mb-1">
-          <div className="w-6 h-6 bg-indigo-600 rounded flex items-center justify-center shadow-xs">
-            <div className="w-2 h-2 bg-white rounded-full"></div>
+        <div className="flex items-center gap-2.5 mb-1.5">
+          <div className="w-7 h-7 bg-indigo-600 rounded-lg flex items-center justify-center shadow-xs text-white font-black text-xs tracking-tight">
+            GW
           </div>
-          <span className="font-bold text-base tracking-tight text-slate-900">IMG-OPTIMA</span>
-          <span className="text-[9px] font-mono px-1.5 py-0.5 bg-indigo-50 text-indigo-700 font-bold rounded">
+          <div className="flex flex-col min-w-0">
+            <span className="font-bold text-sm tracking-tight text-slate-900 truncate">
+              Gulf Way Group
+            </span>
+            <span className="text-[10px] text-slate-400 font-medium">Batch Image Engine</span>
+          </div>
+          <span className="text-[9px] font-mono px-1.5 py-0.5 bg-indigo-50 text-indigo-700 font-bold rounded ml-auto">
             v2.4
           </span>
         </div>

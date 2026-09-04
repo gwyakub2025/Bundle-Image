@@ -198,7 +198,7 @@ export async function renderBatchToCanvas(
     ctx.textAlign = 'left';
     ctx.textBaseline = 'middle';
 
-    const headerText = config.pageHeaderTitle || 'Bulk Image Batch Sheet';
+    const headerText = config.pageHeaderTitle || 'Gulf Way Group';
     ctx.fillText(headerText, marginPx, marginPx + 20);
 
     if (config.showPageNumbers) {
@@ -350,7 +350,7 @@ export async function renderBatchToCanvas(
     ctx.font = '13px system-ui, -apple-system, sans-serif';
     ctx.textAlign = 'left';
     ctx.textBaseline = 'middle';
-    ctx.fillText('A4 Document • Standard 210 × 297 mm', marginPx, footerY);
+    ctx.fillText('Gulf Way Group • Standard 210 × 297 mm A4', marginPx, footerY);
 
     ctx.textAlign = 'right';
     ctx.fillText(`Page ${batchIndex + 1} of ${totalBatches}`, width - marginPx, footerY);
